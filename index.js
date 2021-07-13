@@ -44,6 +44,7 @@ const client = new CommandoClient({
   owner: discord_owner_id
 });
 
+
 client.registry
   .registerDefaultTypes()
   .registerGroups([
