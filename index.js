@@ -5,6 +5,7 @@ const { prefix, token, discord_owner_id } = require('./config.json');
 const db = require('quick.db');
 const Canvas = require('canvas');
 
+
 Structures.extend('Guild', function(Guild) {
   class MusicGuild extends Guild {
     constructor(client, data) {
